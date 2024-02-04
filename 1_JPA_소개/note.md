@@ -546,3 +546,39 @@ What과 why를 항상 생각하는게 중요하다.
 2. 계층분리
 
 
+
+class Client {
+    public buy(Item item) {
+        item.getPrice();
+    }
+}
+
+main() {
+    Client.buy(new Movie());
+    Client.buy(new Album());
+    Client.buy(new Book());
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
